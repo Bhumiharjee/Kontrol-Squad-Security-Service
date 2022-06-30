@@ -1,0 +1,289 @@
+/* .............................index.html.......................................... */
+/* titlebar */
+.titlebar {
+    background-color: #00113f;
+}
+
+.navbar {
+    background-color: #00113f;
+}
+
+nav {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.dropdown-menu {
+    background-color: #00113f;
+}
+
+.dropdown-item {
+    color: #fff;
+}
+
+.dropdown-divider {
+    background-color: #DDDDDD;
+    color: #DDDDDD;
+}
+
+.brandimage {
+    height: 9vh;
+    width: 11vh;
+}
+
+/* home-main */
+.home {
+    background-color: #E8F0F2;
+    margin-top: 40px;
+}
+
+/* welcome */
+.welcome {
+    background-color: #E8F0F2;
+    padding: 5%;
+}
+
+.content {
+    background-color: #fff;
+    font-size: 1.2rem;
+    padding: 2%;
+    border-radius: 5%;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+
+/* facilities*/
+.gallery_content {
+    font-size: 1.1rem;
+}
+
+.gallery_content:hover {
+    background-color: #00113f;
+    color: #fff;
+}
+
+.yellow_statement {
+
+    background-color: #FFC93C;
+    height: 22vh;
+    width: 20vh;
+    position: relative;
+
+    right: 2%;
+}
+
+.color_statements {
+
+    background-color: #87A7B3;
+    height: 22vh;
+    width: 20vh;
+
+
+    right: 2%;
+}
+
+/* features */
+.color_statement {
+    background-color: #2978B5;
+    height: 22vh;
+    width: 20vh;
+    position: relative;
+    left: 90%;
+    margin-top: 5%
+}
+
+.statement_content {
+    position: relative;
+    bottom: 10%;
+    left: 4%;
+}
+
+/* ...............profile............................................................ */
+.profile_header {
+    background-image: url(../resource/profile-background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    padding: 8% 5% 5% 5%;
+
+    margin-top: 3%;
+}
+
+.profile_home_img {
+    position: relative;
+    top: 2%;
+    right: 5%;
+}
+
+
+/* ...............................Service.html.......................................... */
+.services_header {
+    background-image: url(../resource/service-background.jpg);
+
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    padding: 8% 5% 5% 5%;
+    margin-top: 3%;
+}
+
+.right_img {
+    margin-top: 6%;
+}
+
+.left_img {
+    margin-top: 6%;
+}
+
+.about_services {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+
+}
+
+.about_services {
+    margin-top: 2%
+}
+
+.service_main {
+    background-color: #00113f;
+
+}
+
+.service_content {
+    padding: 3%;
+}
+
+.service_h1 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #00113f;
+    margin-top: 2%;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.service_h1::after {
+    padding-top: 10%;
+}
+
+/* ........................................policies..................................... */
+.policies_header {
+    background-image: url(../resource/policy-background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    padding: 8% 5% 5% 5%;
+
+    margin-top: 3%;
+}
+
+/*................................contact.html.......................................... */
+
+
+
+.contact_info {
+    background-color: #E8F0F2;
+    margin-top: 10%;
+}
+
+.contact_body {
+    background-color: #E8F0F2;
+}
+
+.form_page {
+    background-image: url(../resource/gallery_background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+    padding: 6% 5%;
+    margin: 4%
+}
+
+.form_page {
+    border-radius: 2%;
+}
+
+.form_left {
+    background-color: #fff;
+    border-radius: 2%;
+}
+
+.form_left1 {
+    background-color: #f4f4f4;
+    border-radius: 2%;
+}
+
+.location1 {
+    background-color: #f4f4f4;
+    font-size: 1rem;
+
+}
+
+.map {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 25.25%;
+}
+
+.responsive_iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* ..........................................footer........................................ */
+.footer {
+    color: #fff;
+    background-color: #00113f;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.copyright {
+    padding-top: 18px;
+}
+
+.social-icon {
+    margin: 20px 10px;
+    font-size: 20px;
+}
+
+.icon {
+    color: #E8F0F2;
+    font-size: 1rem;
+}
+
+.icon:hover {
+    color: #D1D9D9;
+}
+
+.from_left {
+    font-family: serif;
+}
+
+.location {
+    margin-top: 5%;
+    font-size: 1.1rem;
+    line-height: 2;
+    font-family: serif;
+}
+
+.footer_links {
+    background-color: #00002e;
+}
+
+.about_footer {
+    padding: 6%;
+    margin: 3%;
+}
