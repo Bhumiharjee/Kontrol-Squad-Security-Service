@@ -35,80 +35,82 @@ Kontrol Squad is a robust security management system designed to enhance and str
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/Bhumiharjee/Kontrol-Squad.git
-Navigate to the project directory:
+   ```
 
-bash
-Copy code
-cd Kontrol-Squad
-Install dependencies:
+2. **Navigate to the project directory**:
+   ```bash
+   cd Kontrol-Squad
+   ```
 
-bash
-Copy code
-npm install
-Set up the database:
+3. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-Ensure MongoDB is installed and running.
-Create a new database called kontrol_squad.
-Run the migration script to set up collections:
-bash
-Copy code
-npm run migrate
-Start the application:
+4. **Set up the database**:
+   - Ensure MongoDB is installed and running.
+   - Create a new database called `kontrol_squad`.
+   - Run the migration script to set up collections:
+     ```bash
+     npm run migrate
+     ```
 
-bash
-Copy code
-npm start
-Usage
-Access the application:
+5. **Start the application**:
+   ```bash
+   npm start
+   ```
 
-Visit http://localhost:3000 to access the application.
-Log in using the default credentials: admin/admin123.
-Explore the features:
+## Usage
 
-Manage security personnel and assignments.
-Log and track security incidents.
-Generate and view reports.
-Project Structure
-/src: Contains the source code for the application.
-/frontend: Contains the React.js frontend code.
-/backend: Contains the Node.js backend code.
-/config: Configuration files for different environments.
-/tests: Test files and resources.
-/docker: Docker-related files, including Dockerfile and docker-compose.yml.
-Docker Usage
-Build the Docker image:
+1. **Access the application**:
+   - Visit `http://localhost:3000` to access the application.
+   - Log in using the default credentials: `admin/admin123`.
 
-bash
-Copy code
-docker build -t kontrol-squad .
-Run the Docker container:
+2. **Explore the features**:
+   - Manage security personnel and assignments.
+   - Log and track security incidents.
+   - Generate and view reports.
 
-bash
-Copy code
-docker run -p 3000:3000 kontrol-squad
-Docker Compose:
+## Project Structure
 
-If you're using Docker Compose, start the services with:
-bash
-Copy code
-docker-compose up
-Contributing
+- `/src`: Contains the source code for the application.
+- `/frontend`: Contains the React.js frontend code.
+- `/backend`: Contains the Node.js backend code.
+- `/config`: Configuration files for different environments.
+- `/tests`: Test files and resources.
+- `/docker`: Docker-related files, including `Dockerfile` and `docker-compose.yml`.
+
+## Docker Usage
+
+1. **Build the Docker image**:
+   ```bash
+   docker build -t kontrol-squad .
+   ```
+
+2. **Run the Docker container**:
+   ```bash
+   docker run -p 3000:3000 kontrol-squad
+   ```
+
+3. **Docker Compose**:
+   - If you're using Docker Compose, start the services with:
+     ```bash
+     docker-compose up
+     ```
+
+## Contributing
+
 Contributions are welcome! Please follow these steps:
 
-Fork the repository.
-Create a new branch (git checkout -b feature/YourFeature).
-Commit your changes (git commit -m 'Add some feature').
-Push to the branch (git push origin feature/YourFeature).
-Open a Pull Request.
-License
-This project is licensed under the MIT License.
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/YourFeature`).
+3. Commit your changes (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Open a Pull Request.
 
-csharp
-Copy code
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+```
 
 You can now paste this entire block into your `README.md` file.
-
-
-
-
-
